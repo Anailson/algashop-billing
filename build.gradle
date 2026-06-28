@@ -32,6 +32,7 @@ dependencies {
 	implementation 'io.hypersistence:hypersistence-tsid:2.1.4'
 	implementation 'org.modelmapper:modelmapper:3.2.4'
 	implementation 'org.apache.commons:commons-lang3:3.17.0'
+	implementation "org.springframework.boot:spring-boot-h2console"
 
 	runtimeOnly 'com.h2database:h2'
 
