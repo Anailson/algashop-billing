@@ -4,5 +4,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface CreditCarRepository extends JpaRepository<CreditCard, UUID> {
+public interface CreditCardRepository extends JpaRepository<CreditCard, UUID> {
 }
