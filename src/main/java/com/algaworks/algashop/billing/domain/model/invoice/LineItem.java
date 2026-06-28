@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @EqualsAndHashCode
+@Builder
 public class LineItem {
     private Integer number;
     private String name;
