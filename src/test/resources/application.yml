@@ -1,1 +1,1 @@
-spring.application.name=billing
+spring.profiles.active: test
