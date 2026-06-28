@@ -14,6 +14,7 @@ import java.util.*;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor(access = AccessLevel.PROTECTED)
 public class Invoice {
+
     @EqualsAndHashCode.Include
     private UUID id;
     private String orderId;
@@ -122,4 +123,5 @@ public class Invoice {
         PaymentSettings paymentSettings = PaymentSettings.brandNew(method, creditCardId);
         this.setPaymentSettings(paymentSettings);
     }
+
 }
